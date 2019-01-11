@@ -25,5 +25,7 @@ def nyc_pigeon_organizer(data)
   #Iterates through data yielding attributes and details, then iterates through the pigeon_list we created, yielding names and the empty hashes, then adds attributes as a key with values of an empty array within each name key that 
   
   
+  
+  
   binding.pry 
 end
