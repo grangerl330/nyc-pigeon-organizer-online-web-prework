@@ -27,8 +27,10 @@ def nyc_pigeon_organizer(data)
   data.each do |attributes, details|
     details.each do |property, names|
       names.each do |name|
-        pigeon_list[name][attributes] << property
-  
-  
+        pigeon_list[name][attributes] << property.to_s 
+      end 
+    end
+  end 
+
   binding.pry 
 end
