@@ -29,6 +29,8 @@ def nyc_pigeon_organizer(data)
       end 
     end
   end 
+  
+  pigeon_list
 
 #iterates through data, yielding attributes and details, then iterates through those details, yielding the property and the names within. Then iterates through each of the names, yielding each individual name. Now that we have access to all of the data necessary from each iteration, we add the properies to the arrays that are the values of the attribute keys in pigeon_list. We access those arrays with pigeon_list[name][attributes] then shovel, <<, each property into the arrays. We need to convert to strings with .to_s because each property is a key.
 end
